@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugünkü Kombinim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- birinci sayfa -->
+
+        <div id="baslangic-ekrani">
+            <h1>Bugün Ne Giysem??</h1>
+            <p>Kombini kimin seçmesini istersin?</p>
+
+            <div class="secim-alani">
+                <button id="rastgele-secsin">Uygulama benim için seçsin</button>
+                <button id="kendim-sec">Kombinimi ben seçmek istiyorum</button>
+            </div>
+        </div>
+
+        <!-- ikinci sayfa -->
+        
+<div id="rastgele-kombin-alani">
+
+    <button id="rastgele-geri" class="geri-butonu">&#8592;</button>
+
+    <div class="kombin-alani">
+
+        <div class="kart">
+            <h3>Üst Giyim</h3>
+            <img id="ust-giyim-foto" alt="Üst giyim">
+            <p id="ust-giyim">-</p>
+        </div>
+
+        <div class="kart">
+            <h3>Alt Giyim</h3>
+            <img id="alt-giyim-foto" alt="Alt giyim">
+            <p id="alt-giyim">-</p>
+        </div>
+
+        <div class="kart">
+            <h3>Ayakkabı</h3>
+            <img id="ayakkabi-foto" alt="Ayakkabı">
+            <p id="ayakkabi">-</p>
+        </div>
+
+    </div>
+
+    <button id="kombin-butonu">Kombinimi Seç</button>
+
+</div>
+
+
+            <!-- üçüncü sayfa -->
+
+    <section id="kendi-kombin-ekrani" aria-labelledby="kendi-kombin-baslik">
+        <button id="kendi-geri" class="geri-butonu" type="button">&#8592; Geri dön</button>
+        <header class="kendi-kombin-baslik-alani">
+            <p class="ekran-etiketi">İŞTE BUGÜNKÜ KOMBİNİN</p>
+            <h2 id="kendi-kombin-baslik">Kendi kombinini kendin oluştur</h2>
+            <p class="ekran-aciklamasi">Sonucu merakla bekliyorum!</p>
+        </header>
+        <div class="kendi-kombin-duzeni">
+            <div class="urun-kategorileri">
+                <section class="urun-kategori" aria-labelledby="ust-kategori-baslik">
+                    <div class="kategori-baslik-satiri"><h3 id="ust-kategori-baslik">Üst giyim</h3><span>Bir parça seç</span></div>
+                    <div class="urun-listesi">
+                        <button class="urun-secimi" data-kategori="ust" data-index="0" type="button" aria-pressed="false"><img src="ust1.jpeg" alt="Kayık yaka bej üst"><span>Kayık yaka bej üst</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="1" type="button" aria-pressed="false"><img src="ust2.jpeg" alt="Puantiyeli dantelli bluz"><span>Puantiyeli dantelli bluz</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="2" type="button" aria-pressed="false"><img src="ust3.jpeg" alt="Siyah kazak"><span>Siyah kazak</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="3" type="button" aria-pressed="false"><img src="ust4.jpeg" alt="Lacivert polo yaka"><span>Lacivert polo yaka</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="4" type="button" aria-pressed="false"><img src="ust5.jpeg" alt="Siyah askılı crop"><span>Siyah askılı crop</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="5" type="button" aria-pressed="false"><img src="ust6.jpeg" alt="Çizgili gömlek"><span>Çizgili gömlek</span></button>
+                        <button class="urun-secimi" data-kategori="ust" data-index="6" type="button" aria-pressed="false"><img src="ust7.jpeg" alt="Beyaz tek omuz üst"><span>Beyaz tek omuz üst</span></button>
+                    </div>
+                </section>
+                <section class="urun-kategori" aria-labelledby="alt-kategori-baslik">
+                    <div class="kategori-baslik-satiri"><h3 id="alt-kategori-baslik">Alt giyim</h3><span>Bir parça seç</span></div>
+                    <div class="urun-listesi">
+                        <button class="urun-secimi" data-kategori="alt" data-index="0" type="button" aria-pressed="false"><img src="alt1.jpeg" alt="İspanyol paça jean"><span>İspanyol paça jean</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="1" type="button" aria-pressed="false"><img src="alt2.jpeg" alt="Kot etek"><span>Kot etek</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="2" type="button" aria-pressed="false"><img src="alt3.jpeg" alt="Beyaz dantelli uzun etek"><span>Beyaz dantelli uzun etek</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="3" type="button" aria-pressed="false"><img src="alt4.jpeg" alt="Çizgili keten pantolon"><span>Çizgili keten pantolon</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="4" type="button" aria-pressed="false"><img src="alt5.jpeg" alt="Yeşil saten etek"><span>Yeşil saten etek</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="5" type="button" aria-pressed="false"><img src="alt6.jpeg" alt="Pembe dantelli etek"><span>Pembe dantelli etek</span></button>
+                        <button class="urun-secimi" data-kategori="alt" data-index="6" type="button" aria-pressed="false"><img src="alt7.jpeg" alt="Acı kahve etek"><span>Acı kahve etek</span></button>
+                    </div>
+                </section>
+                <section class="urun-kategori" aria-labelledby="ayakkabi-kategori-baslik">
+                    <div class="kategori-baslik-satiri"><h3 id="ayakkabi-kategori-baslik">Ayakkabı</h3><span>Bir çift seç</span></div>
+                    <div class="urun-listesi">
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="0" type="button" aria-pressed="false"><img src="ayakkabi1.jpeg" alt="Lacivert Samba"><span>Lacivert Samba</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="1" type="button" aria-pressed="false"><img src="ayakkabi2.jpeg" alt="Kahverengi stiletto"><span>Kahverengi stiletto</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="2" type="button" aria-pressed="false"><img src="ayakkabi3.jpeg" alt="Bordo kısa topuklu"><span>Bordo kısa topuklu</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="3" type="button" aria-pressed="false"><img src="ayakkabi4.jpeg" alt="Kahverengi Spezial"><span>Kahverengi Spezial</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="4" type="button" aria-pressed="false"><img src="ayakkabi5.jpeg" alt="Siyah çizme"><span>Siyah çizme</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="5" type="button" aria-pressed="false"><img src="ayakkabi6.jpeg" alt="Kırmızı babet"><span>Kırmızı babet</span></button>
+                        <button class="urun-secimi" data-kategori="ayakkabi" data-index="6" type="button" aria-pressed="false"><img src="ayakkabi7.jpeg" alt="Hasır parmak arası terlik"><span>Hasır parmak arası terlik</span></button>
+                    </div>
+                </section>
+            </div>
+            <aside class="kombin-onizleme" aria-labelledby="kombin-onizleme-baslik">
+                <p class="ekran-etiketi">SEÇİMLERİN</p><h3 id="kombin-onizleme-baslik">Kombinim</h3>
+                <div class="onizleme-parcalari">
+                    <div class="onizleme-parca"><span>Üst giyim</span><img id="onizleme-ust-foto" alt="Seçilen üst giyim" hidden><p id="onizleme-ust-adi">Henüz seçilmedi</p></div>
+                    <div class="onizleme-parca"><span>Alt giyim</span><img id="onizleme-alt-foto" alt="Seçilen alt giyim" hidden><p id="onizleme-alt-adi">Henüz seçilmedi</p></div>
+                    <div class="onizleme-parca"><span>Ayakkabı</span><img id="onizleme-ayakkabi-foto" alt="Seçilen ayakkabı" hidden><p id="onizleme-ayakkabi-adi">Henüz seçilmedi</p></div>
+                </div>
+                <p class="onizleme-notu">Kombinine bayıldım!</p>
+            </aside>
+        </div>
+    </section>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
